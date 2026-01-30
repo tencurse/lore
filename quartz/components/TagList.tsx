@@ -30,7 +30,7 @@ TagList.css = `
   display: flex;
   padding-left: 0;
   gap: 0.4rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   flex-wrap: wrap;
 }
 
@@ -46,7 +46,6 @@ TagList.css = `
 }
 
 a.internal.tag-link {
-  border-radius: 8px;
   background-color: var(--highlight);
   padding: 0.2rem 0.4rem;
   margin: 0 0.1rem;
