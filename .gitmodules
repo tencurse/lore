@@ -1,0 +1,6 @@
+[submodule "content/pf2e"]
+	path = content/pf2e
+	url = git@tencurse:tencurse/pf2e-vault.git
+[submodule "content/dnd"]
+	path = content/dnd
+	url = git@tencurse:tencurse/dnd-vault.git
