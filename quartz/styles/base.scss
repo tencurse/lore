@@ -9,6 +9,7 @@ html {
   text-size-adjust: none;
   overflow-x: hidden;
   width: 100vw;
+  font-size: 18px;
 
   @media all and ($mobile) {
     scroll-padding-top: 4rem;
@@ -19,7 +20,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--light);
-  font-family: var(--bodyFont);
+  font-family: "FF Good Pro";
   color: var(--darkgray);
 }
 
@@ -82,7 +83,6 @@ strong {
 }
 
 a {
-  font-weight: $semiBoldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
@@ -163,10 +163,6 @@ a {
   max-width: calc(#{map.get($breakpoints, desktop)} + 300px);
   margin: 0 auto;
   & article {
-    & > h1 {
-      font-size: 2rem;
-    }
-
     & li:has(> input[type="checkbox"]) {
       list-style-type: none;
       padding-left: 0;
