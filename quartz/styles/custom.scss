@@ -1,3 +1,187 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Font Face Declarations
+@font-face {
+  font-family: "Moderne Fraktur";
+  src:
+    url("./static/fonts/ModerneFraktur.woff2") format("woff2"),
+    url("./static/fonts/ModerneFraktur.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quietism Text";
+  src:
+    url("./static/fonts/QuietismText-Regular.woff2") format("woff2"),
+    url("./static/fonts/QuietismText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quietism Text";
+  src:
+    url("./static/fonts/QuietismText-Italic.woff2") format("woff2"),
+    url("./static/fonts/QuietismText-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quietism Text";
+  src:
+    url("./static/fonts/QuietismText-Bold.woff2") format("woff2"),
+    url("./static/fonts/QuietismText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quietism Text";
+  src:
+    url("./static/fonts/QuietismText-BoldItalic.woff2") format("woff2"),
+    url("./static/fonts/QuietismText-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src:
+    url("./static/fonts/FFGoodPro-Regular.woff2") format("woff2"),
+    url("./static/fonts/FFGoodPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src:
+    url("./static/fonts/FFGoodPro-Italic.woff2") format("woff2"),
+    url("./static/fonts/FFGoodPro-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src:
+    url("./static/fonts/FFGoodPro-Bold.woff2") format("woff2"),
+    url("./static/fonts/FFGoodPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Good Pro";
+  src:
+    url("./static/fonts/FFGoodPro-BoldItalic.woff2") format("woff2"),
+    url("./static/fonts/FFGoodPro-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+h1 {
+  font-family: "Moderne Fraktur";
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: -3px;
+  color: var(--secondary);
+}
+
+.popover {
+  h1 {
+    letter-spacing: -1;
+    font-size: 3rem;
+  }
+
+  article {
+    font-family: "FF Good Pro";
+    font-size: 1rem;
+  }
+
+  .breadcrumb-element a {
+    font-size: 1rem;
+  }
+
+  .page-listing > p {
+    font-size: 1rem;
+  }
+}
+
+h2,
+h3 {
+  font-family: "Quietism Text";
+  font-weight: 400;
+  font-variant: small-caps;
+  color: var(--secondary);
+}
+
+.desc h3 {
+  font-family: "FF Good Pro";
+  font-variant: normal;
+}
+
+.page {
+  article {
+    font-family: "FF Good Pro";
+  }
+}
+
+.page-listing {
+  > p {
+    font-family: "FF Good Pro";
+  }
+}
+
+.content-meta span {
+  display: inline-block;
+  text-transform: lowercase;
+  margin-inline-end: 0.5rem;
+}
+
+ul {
+  list-style-type: "\2726  ";
+
+  ul {
+    list-style-type: "\2727  ";
+
+    ul {
+      list-style-type: disc;
+
+      ul {
+        list-style-type: circle;
+      }
+    }
+  }
+}
+
+.center a[href^="https://2e.aonprd.com"] svg {
+  display: none;
+}
+
+.center a[href^="https://2e.aonprd.com"]::before {
+  content: url("https://2e.aonprd.com/favicon.ico");
+  vertical-align: middle;
+  width: 16px;
+  line-height: 0;
+  margin-right: 4px;
+  display: inline-block;
+  margin-top: -5px
+}
+
+a.internal {
+  background-color: transparent;
+}
