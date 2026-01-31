@@ -2,8 +2,8 @@
 publish: true
 title: Fugue
 created: 2026-01-30T13:44:03.918-08:00
-modified: 2026-01-30T21:38:15.647-08:00
-published: 2026-01-30T21:38:15.647-08:00
+modified: 2026-01-30T21:00:54.453-08:00
+published: 2026-01-30T21:00:54.453-08:00
 tags:
   - dnd
 cssclasses:
