@@ -108,6 +108,14 @@ h1 {
     font-size: 3rem;
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3, h4 {
+    font-size: 1rem;
+  }
+
   article {
     font-family: "FF Good Pro";
     font-size: 1rem;
@@ -136,10 +144,23 @@ h5 {
   color: var(--secondary);
 }
 
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
 .desc h3,
 .meta time {
   font-family: "FF Good Pro";
   font-variant: normal;
+  font-size: inherit;
 }
 
 .page {
