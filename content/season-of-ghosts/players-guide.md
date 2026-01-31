@@ -2,7 +2,7 @@
 publish: true
 title: Players' Guide
 created: 2026-01-30T14:31:14.141-08:00
-modified: 2026-01-30T14:39:25.756-08:00
+modified: 2026-01-30T16:21:47.230-08:00
 cssclasses: ""
 ---
 
