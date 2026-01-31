@@ -116,8 +116,12 @@ h1 {
     font-size: 1rem;
   }
 
-  .page-listing > p {
-    font-size: 1rem;
+  .page-listing {
+    > p,
+    .section-ul .section-li p,
+    .section-ul .section-li h3 {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -129,7 +133,8 @@ h3 {
   color: var(--secondary);
 }
 
-.desc h3 {
+.desc h3,
+.meta time {
   font-family: "FF Good Pro";
   font-variant: normal;
 }
@@ -179,7 +184,7 @@ ul {
   line-height: 0;
   margin-right: 4px;
   display: inline-block;
-  margin-top: -5px
+  margin-top: -5px;
 }
 
 a.internal {
