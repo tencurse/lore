@@ -2,8 +2,8 @@
 publish: true
 title: Prudence Ward
 created: 2026-01-30T19:38:03.560-08:00
-modified: 2026-01-30T22:10:17.264-08:00
-published: 2026-01-30T22:10:17.264-08:00
+modified: 2026-01-30T23:16:46.391-08:00
+published: 2026-01-30T23:16:46.391-08:00
 tags:
   - dnd
 cssclasses:
@@ -12,7 +12,7 @@ cssclasses:
 
 > [!infobox|right]
 > ![[_assets/prue.jpg]]
-> #### Bio
+> #### Prudence “Prue” Ward
 > | | |
 > | ---- | ---- |
 > | Name | Prudence Ward |
@@ -20,13 +20,10 @@ cssclasses:
 > | Race | Human |
 > | Gender | cis woman |
 > | Pronouns | she/her |
-> #### Info
-> | | |
-> | ---- | ---- |
-> | Campaign | Wedding Quest |
 > | Class | Paladin |
 > | Subclass | <ul><li>Oathbreaker</li><li>Oath of the Crown (formerly)</li></ul> |
 > | Deity | Torm |
+> | Campaign | Wedding Quest |
 
 # Prudence Ward
 ## Physical Description
