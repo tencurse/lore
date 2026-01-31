@@ -2,8 +2,8 @@
 publish: true
 title: Fugue
 created: 2026-01-30T17:50:46.783-08:00
-modified: 2026-01-30T21:57:09.286-08:00
-published: 2026-01-30T21:57:09.286-08:00
+modified: 2026-01-30T22:13:38.494-08:00
+published: 2026-01-30T22:13:38.494-08:00
 cssclasses:
   - character
 password: voidquest
@@ -70,13 +70,19 @@ What he tells people is that this expedition serves as his religious pilgrimage,
 
 **Languages:** Common, Orc, plus two more from Haunted One background (idk yet)
 
-**Occupation:** Sharran priest working in the House of Grief (yes I stole it from Baldur’s Gate 3, it’s essentially the same thing)
+**Occupation:** Sharran priest working in the House of Grief (yes I stole it from *Baldur’s Gate 3*)
 
 **Societal standing:** TBD
 
-**Birthplace:** TBD
+**Birthplace:** Baldur’s Gate, I guess
 
 **Gender woes:** something about how his femininity and lack of genitals make him feel like he’s not a man at all. Including the fact that most people, especially his colleagues, do not see him that way. A man who’s not a man.
+
+## Present
+
+### 1 year before the expedition
+
+Fugue has been staying for in Halia for a year with two other Sharran researchers who went on their own expeditions ahead of him. They’ve set up a business in the criminal underbelly of Luden’s Rest, relieving people of their grief.
 
 ## Relationships
 
