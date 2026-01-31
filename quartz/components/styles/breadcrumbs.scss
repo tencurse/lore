@@ -11,12 +11,23 @@
 .breadcrumb-element {
   p {
     margin: 0;
-    margin-left: 0.5rem;
     padding: 0;
     line-height: normal;
+  }
+  a {
+    margin-right: 0.5rem;
+    text-transform: lowercase;
   }
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 800px) {
+  .breadcrumb-container.mobile-only {
+    display: flex;
+  }
+}
+.breadcrumb-container.desktop-only {
+  display: flex;
 }
