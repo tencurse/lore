@@ -81,6 +81,8 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
+      // ProtectedContent must come before ContentIndex to protect password-protected content from being indexed
+      Plugin.ProtectedContent(),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,

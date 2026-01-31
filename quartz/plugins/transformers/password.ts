@@ -5,7 +5,7 @@ import { toHtml } from "hast-util-to-html"
 
 import { BuildCtx } from "../../util/ctx"
 import { Root as HTMLRoot } from "hast"
-import { QuartzTransformerPlugin } from "../types"
+import { QuartzTransformerPlugin, QuartzEmitterPlugin } from "../types"
 import { VFile } from "vfile"
 
 const quartzCache = path.resolve("./quartz/.quartz-cache/password/")
@@ -57,7 +57,6 @@ export const Staticrypt: QuartzTransformerPlugin<Options> = (opts?: Options) => 
       return [
         () => {
           return async (tree: HTMLRoot, file: VFile) => {
-            const savePath = path.join(quartzCache, ctx.argv.output, `${file.data.slug}.html`)
             const frontmatter = file.data.frontmatter
 
             file.data.isProtected = false
@@ -80,9 +79,6 @@ export const Staticrypt: QuartzTransformerPlugin<Options> = (opts?: Options) => 
                 savePath: path.join(ctx.argv.output, `${file.data.slug}.html`),
               })
               fs.writeFileSync(passwordCache, JSON.stringify(currentCache))
-
-              fs.mkdirSync(path.dirname(savePath), { recursive: true })
-              fs.writeFileSync(savePath, toHtml(tree))
               
               file.data.description = opts?.lockedDescription || "This note is password-protected."
             }
@@ -93,8 +89,36 @@ export const Staticrypt: QuartzTransformerPlugin<Options> = (opts?: Options) => 
   }
 }
 
+/**
+ * Emitter plugin that protects the text content of password-protected files.
+ * This prevents the content from being indexed in search while preserving
+ * the text for other components like ContentMeta to use during rendering.
+ * 
+ * This emitter should be placed BEFORE ContentIndex in the emitters list.
+ */
+export const ProtectedContent: QuartzEmitterPlugin = () => {
+  return {
+    name: "ProtectedContent",
+    async *emit(_ctx, content, _resources) {
+      // This emitter doesn't emit any files, it just modifies the content
+      // for other emitters to use.
+      for (const [_tree, file] of content) {
+        if (file.data.isProtected && file.data.text) {
+          // Store the original text in a separate property for components to use
+          file.data.protectedText = file.data.text
+          // Clear the text so it won't be indexed by ContentIndex
+          file.data.text = ""
+        }
+      }
+      // Yield nothing - this is just a data transformation
+      return []
+    },
+  }
+}
+
 declare module "vfile" {
   interface DataMap {
     isProtected: boolean
+    protectedText?: string
   }
 }

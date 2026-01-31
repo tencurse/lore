@@ -24,7 +24,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
-    const text = fileData.text
+    // Use protectedText if available (for password-protected pages), otherwise use text
+    const text = fileData.protectedText || fileData.text
 
     if (text) {
       const segments: (string | JSX.Element)[] = []
