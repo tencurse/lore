@@ -44,12 +44,12 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     })),
     Component.DesktopOnly(Component.TableOfContents()),
-    // Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.ContentMeta()),
     Component.DesktopOnly(Component.TagList()),
     Component.Backlinks(),
+    Component.DesktopOnly(Component.Graph()),
   ],
 }
 
@@ -75,11 +75,11 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(Component.Breadcrumbs()),
     Component.DesktopOnly(Component.TableOfContents()),
-    // Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.ContentMeta()),
     Component.DesktopOnly(Component.TagList()),
     Component.Backlinks(),
+    Component.DesktopOnly(Component.Graph()),
   ],
 }
