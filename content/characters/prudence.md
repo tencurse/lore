@@ -2,8 +2,8 @@
 publish: true
 title: Prudence Ward
 created: 2026-01-30T19:38:03.560-08:00
-modified: 2026-01-30T20:50:30.915-08:00
-published: 2026-01-30T20:50:30.915-08:00
+modified: 2026-01-30T22:10:17.264-08:00
+published: 2026-01-30T22:10:17.264-08:00
 tags:
   - dnd
 cssclasses:
@@ -12,19 +12,26 @@ cssclasses:
 
 > [!infobox|right]
 > ![[_assets/prue.jpg]]
-> 
+> #### Bio
 > | | |
 > | ---- | ---- |
 > | Name | Prudence Ward |
 > | Aliases | Prue |
+> | Race | Human |
+> | Gender | cis woman |
+> | Pronouns | she/her |
+> #### Info
+> | | |
+> | ---- | ---- |
 > | Campaign | Wedding Quest |
 > | Class | Paladin |
 > | Subclass | <ul><li>Oathbreaker</li><li>Oath of the Crown (formerly)</li></ul> |
+> | Deity | Torm |
 
 # Prudence Ward
 ## Physical Description
 
-Prudence is tall for a human woman, standing ramrod straight at 6’4”. Big shoulders, long, pillar-thick legs. She has long, dark, straight hair framing her cool, brown face, and you find you can’t bring yourself to look away from her *terrible, galvanic-blue* eyes. A commanding presence, to be sure, with a disciplined rage simmering beneath. Even so, she respects propriety and order, above all things.
+Prudence is tall for a human woman, standing ramrod straight at 6’4”. Big shoulders, long, pillar-thick legs. She has long, dark, straight hair framing her cool, brown face, and you find you can’t bring yourself to look away from her *terrible, galvanic-blue* eyes. A commanding presence, to be sure, with a barely-disciplined rage simmering beneath. Even so, she respects propriety and order, above all things.
 
 - ragebait-able
 	-  a kid could very well ragebait her just because she takes things too seriously
