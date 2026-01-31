@@ -19,6 +19,10 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
+    Component.MobileOnly(Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
+    })),
     Component.MobileOnly(Component.ContentMeta()),
     Component.MobileOnly(Component.TagList()),
   ],
@@ -35,10 +39,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.ConditionalRender({
+    Component.DesktopOnly(Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
-    }),
+    })),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.DesktopOnly(Component.Graph()),
   ],
@@ -53,6 +57,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(),
+    Component.MobileOnly(Component.Breadcrumbs()),
     Component.MobileOnly(Component.ContentMeta()),
     Component.MobileOnly(Component.TagList()),
   ],
@@ -68,7 +73,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Breadcrumbs(),
+    Component.DesktopOnly(Component.Breadcrumbs()),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.DesktopOnly(Component.Graph()),
   ],
