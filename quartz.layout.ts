@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/tencurse/lore",
-      "Main Site": "https://karma.computer",
+      github: "https://github.com/tencurse/lore",
+      "main site": "https://karma.computer",
+      colophon: "/colophon"
     },
   }),
 }
