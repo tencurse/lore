@@ -128,12 +128,16 @@
   margin: 0;
   border-radius: var(--radius-s);
 }
+.callout.callout[data-callout~="infobox"] > .callout-content h4 a.internal[role="anchor"] {
+  display: none;
+}
 .callout.callout[data-callout~="infobox"] table {
   width: 100%;
 }
 
 .callout.callout[data-callout~="infobox"] table th {
   border: none;
+  display: none;
 }
 .callout.callout[data-callout~="infobox"] table td {
   white-space: pre-wrap;
@@ -142,8 +146,32 @@
   line-height: 1.3;
 }
 .callout.callout[data-callout~="infobox"] table td ul {
-  padding-left: .7rem;
+  padding-left: 0.7rem;
   margin: 0;
+}
+
+/* Set a fixed width for the first column of infobox tables. */
+.callout.callout[data-callout~="infobox"] table td:first-child,
+.callout.callout[data-callout~="infobox"] table th:first-child {
+  width: 50px;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+/* On small screens, revert to auto layout so the box can shrink naturally. */
+@media (max-width: 800px) {
+  .callout.callout[data-callout~="infobox"] table {
+    table-layout: auto;
+  }
+  .callout.callout[data-callout~="infobox"] table td:first-child,
+  .callout.callout[data-callout~="infobox"] table th:first-child {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+  }
 }
 .callout.callout[data-callout~="infobox"] :is(p, table) {
   margin-block-start: 0;
@@ -157,6 +185,10 @@
   padding: 2px;
   color: var(--text-normal);
   background: var(--outer-bar, var(--background-secondary));
+}
+.callout.callout[data-callout~="infobox"] > .callout-content h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 .callout.callout[data-callout~="infobox"] .internal-embed,
 .callout.callout[data-callout~="infobox"] img {
