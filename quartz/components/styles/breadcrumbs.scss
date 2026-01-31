@@ -23,11 +23,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.breadcrumb-container.desktop-only {
+  display: flex;
+}
 @media (max-width: 800px) {
   .breadcrumb-container.mobile-only {
     display: flex;
   }
-}
-.breadcrumb-container.desktop-only {
-  display: flex;
+  .breadcrumb-container.desktop-only {
+    display: none;
+  }
 }
