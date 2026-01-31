@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(Component.Graph()),
+    // Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.ContentMeta()),
@@ -69,7 +69,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.DesktopOnly(Component.Graph()),
+    // Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.ContentMeta()),
