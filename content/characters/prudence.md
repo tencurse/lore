@@ -2,21 +2,21 @@
 publish: true
 title: Prudence Ward
 created: 2026-01-30T19:38:03.560-08:00
-modified: 2026-01-30T19:46:06.088-08:00
-published: 2026-01-30T19:46:06.088-08:00
+modified: 2026-01-30T20:10:28.907-08:00
+published: 2026-01-30T20:10:28.907-08:00
 tags:
   - dnd
 cssclasses: ""
 ---
 
 > [!infobox|right]
-> ![[_assets/prue.png]]
+> ![[_assets/prue.jpg]]
 > 
 > | | |
 > | ---- | ---- |
 > | Campaign | Wedding Quest |
 > | Class | Paladin |
-> | Subclass | Oathbreaker, formerly Oath of the Crown |
+> | Subclass | <ul><li>Oathbreaker</li><li>Oath of the Crown (formerly)</li></ul> |
 
 ## Physical Description
 
