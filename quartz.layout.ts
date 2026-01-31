@@ -18,10 +18,6 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
     Component.ArticleTitle(),
     Component.MobileOnly(Component.ContentMeta()),
     Component.MobileOnly(Component.TagList()),
@@ -39,12 +35,16 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.DesktopOnly(Component.TableOfContents()),
     // Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.ContentMeta()),
     Component.DesktopOnly(Component.TagList()),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
 }
@@ -52,7 +52,6 @@ export const defaultContentPageLayout: PageLayout = {
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.MobileOnly(Component.ContentMeta()),
     Component.MobileOnly(Component.TagList()),
@@ -69,12 +68,13 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.Breadcrumbs(),
+    Component.DesktopOnly(Component.TableOfContents()),
     // Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.ContentMeta()),
     Component.DesktopOnly(Component.TagList()),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
 }
