@@ -2,8 +2,8 @@
 publish: true
 title: Fugue
 created: 2026-01-30T17:50:46.783-08:00
-modified: 2026-01-30T22:24:30.627-08:00
-published: 2026-01-30T22:24:30.627-08:00
+modified: 2026-01-30T22:31:55.176-08:00
+published: 2026-01-30T22:31:55.176-08:00
 cssclasses:
   - character
 password: voidquest
@@ -30,14 +30,14 @@ password: voidquest
 
 # Fugue
 
-> [!note]
-> **Level 0 feat:** War Caster
-> 
-> **Items:**
-> - Amulet of the Devout +1
-> - Cloak of Protection
-> 
-> **[[Fugue-print.pdf|PDF Character Sheet]]**
+## Quick info
+**Level 0 feat:** War Caster
+
+**Items:**
+- Amulet of the Devout +1
+- Cloak of Protection
+
+**[[Fugue-print.pdf|PDF Character Sheet]]**
 ## Physical Description
 
 - Pretty boy eunuch – as in he has no dick and balls type of eunuch
