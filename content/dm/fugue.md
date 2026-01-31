@@ -2,8 +2,8 @@
 publish: true
 title: Fugue
 created: 2026-01-30T17:50:46.783-08:00
-modified: 2026-01-30T22:13:38.494-08:00
-published: 2026-01-30T22:13:38.494-08:00
+modified: 2026-01-30T22:24:30.627-08:00
+published: 2026-01-30T22:24:30.627-08:00
 cssclasses:
   - character
 password: voidquest
@@ -29,6 +29,15 @@ password: voidquest
 > | Deity | Shar |
 
 # Fugue
+
+> [!note]
+> **Level 0 feat:** War Caster
+> 
+> **Items:**
+> - Amulet of the Devout +1
+> - Cloak of Protection
+> 
+> **[[Fugue-print.pdf|PDF Character Sheet]]**
 ## Physical Description
 
 - Pretty boy eunuch – as in he has no dick and balls type of eunuch
@@ -95,13 +104,5 @@ Fugue has been staying for in Halia for a year with two other Sharran researcher
 
 ### Allies/affiliations
 # Plot Hooks
-
-# Game Mechanics
-
-**Level 0 feat:** War Caster
-
-**Items:**
-- Amulet of the Devout +1
-- Cloak of Protection
 
 [^1]: He looks like he’s in his mid to late-20s
