@@ -83,8 +83,9 @@ export const Staticrypt: QuartzTransformerPlugin<Options> = (opts?: Options) => 
 
               fs.mkdirSync(path.dirname(savePath), { recursive: true })
               fs.writeFileSync(savePath, toHtml(tree))
+              
+              file.data.description = opts?.lockedDescription || "This note is password-protected."
             }
-            file.data.description = opts?.lockedDescription || "This note is password-protected."
           }
         },
       ]
