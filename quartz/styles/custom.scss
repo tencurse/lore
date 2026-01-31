@@ -127,7 +127,9 @@ h1 {
 }
 
 h2,
-h3 {
+h3, 
+h4,
+h5 {
   font-family: "Quietism Text";
   font-weight: 400;
   font-variant: small-caps;
@@ -190,6 +192,11 @@ ul {
 
 a.internal {
   background-color: transparent;
+}
+
+sup {
+  margin-top: -5px;
+  display: inline-block;
 }
 
 @media (max-width: 800px) {
