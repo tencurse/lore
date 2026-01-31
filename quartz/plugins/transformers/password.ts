@@ -1,7 +1,6 @@
 import spawn from "@expo/spawn-async"
 import fs from "fs"
 import path from "path"
-import { toHtml } from "hast-util-to-html"
 
 import { BuildCtx } from "../../util/ctx"
 import { Root as HTMLRoot } from "hast"
