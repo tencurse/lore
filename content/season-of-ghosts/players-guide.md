@@ -2,7 +2,8 @@
 publish: true
 title: Players' Guide
 created: 2026-01-30T14:31:14.141-08:00
-modified: 2026-01-30T16:21:47.230-08:00
+modified: 2026-01-30T18:32:01.361-08:00
+published: 2026-01-30T18:32:01.361-08:00
 cssclasses: ""
 ---
 
@@ -50,7 +51,7 @@ Here are custom backgrounds from the AP books that can help you decide why your 
 
 {List backgrounds}
 
-### Resources
+## Resources
 
 - Ruleset and Character Creation info - [Home - Archives of Nethys: Pathfinder 2nd Edition Database](https://2e.aonprd.com/)
 - Build planner - [Pathbuilder 2e](https://pathbuilder2e.com)
