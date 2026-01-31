@@ -1,0 +1,7 @@
+.page-header:has(+ .character) h1.article-title {
+  display: none;
+}
+
+.popover-hint:has(+ .character) h1.article-title {
+  display: none;
+}
