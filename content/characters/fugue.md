@@ -2,11 +2,12 @@
 publish: true
 title: Fugue
 created: 2026-01-30T13:44:03.918-08:00
-modified: 2026-01-30T20:59:36.366-08:00
-published: 2026-01-30T20:59:36.366-08:00
+modified: 2026-01-30T21:00:54.453-08:00
+published: 2026-01-30T21:00:54.453-08:00
 tags:
   - dnd
-cssclasses: ""
+cssclasses:
+  - character
 ---
 
 > [!infobox|right]
@@ -19,6 +20,7 @@ cssclasses: ""
 > | Class | Cleric |
 > | Subclass | Grave Domain |
 
+# Fugue
 ## Physical Description
 
 > [!note]
