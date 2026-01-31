@@ -59,6 +59,17 @@ function startLoading() {
 let isNavigating = false
 let p: DOMParser
 async function _navigate(url: URL, isBack: boolean = false) {
+  // If we're currently on a password-protected page AND navigating to a different page, do a full reload
+  // Don't reload if we're staying on the same page (e.g., after form submission)
+  const currentUrl = new URL(window.location.href)
+  const isOnStaticryptPage = document.querySelector('.staticrypt-html') || document.querySelector('#staticrypt-form')
+  const isDifferentPage = currentUrl.pathname !== url.pathname
+  
+  if (isOnStaticryptPage && isDifferentPage) {
+    window.location.assign(url)
+    return
+  }
+  
   isNavigating = true
   startLoading()
   p = p || new DOMParser()
@@ -86,6 +97,14 @@ async function _navigate(url: URL, isBack: boolean = false) {
   cleanupFns.clear()
 
   const html = p.parseFromString(contents, "text/html")
+  
+  // Check if the fetched page is a password-protected page (staticrypt)
+  // If so, do a full page reload instead of SPA navigation
+  if (html.querySelector('.staticrypt-html') || html.querySelector('#staticrypt-form')) {
+    window.location.assign(url)
+    return
+  }
+  
   normalizeRelativeURLs(html, url)
 
   let title = html.querySelector("title")?.textContent

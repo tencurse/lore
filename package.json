@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^1.0.0",
+    "@expo/spawn-async": "^1.7.2",
     "@floating-ui/dom": "^1.7.5",
     "@myriaddreamin/rehype-typst": "^0.6.0",
     "@napi-rs/simple-git": "0.1.22",
@@ -88,6 +89,7 @@
     "sharp": "^0.34.5",
     "shiki": "^3.21.0",
     "source-map-support": "^0.5.21",
+    "staticrypt": "^3.5.4",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
     "unified": "^11.0.5",
