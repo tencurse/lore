@@ -2,8 +2,8 @@
 publish: true
 title: Prudence Ward
 created: 2026-01-30T19:38:03.560-08:00
-modified: 2026-01-30T20:36:25.840-08:00
-published: 2026-01-30T20:36:25.840-08:00
+modified: 2026-01-30T20:50:30.915-08:00
+published: 2026-01-30T20:50:30.915-08:00
 tags:
   - dnd
 cssclasses:
@@ -15,6 +15,8 @@ cssclasses:
 > 
 > | | |
 > | ---- | ---- |
+> | Name | Prudence Ward |
+> | Aliases | Prue |
 > | Campaign | Wedding Quest |
 > | Class | Paladin |
 > | Subclass | <ul><li>Oathbreaker</li><li>Oath of the Crown (formerly)</li></ul> |
@@ -32,5 +34,5 @@ Prudence is tall for a human woman, standing ramrod straight at 6’4”. Big sh
 
 ## Backstory
 
-- [[Maxim]] invited her as a coworker/acquaintance thing — they met during one of his diviner stints. she likes to make a good impression, i think
+- [[Maxim]] invited her as a coworker/acquaintance thing — they met during one of his diviner stints. She likes to make a good impression, I think
 - Prudence has arrested [[Kin]] once on account of causing trouble at a gala where [[Carillon]] was performing
