@@ -2,8 +2,8 @@
 publish: true
 title: Prudence Ward
 created: 2026-01-30T19:38:03.560-08:00
-modified: 2026-01-30T20:27:57.592-08:00
-published: 2026-01-30T20:27:57.592-08:00
+modified: 2026-01-30T20:36:25.840-08:00
+published: 2026-01-30T20:36:25.840-08:00
 tags:
   - dnd
 cssclasses:
@@ -19,7 +19,7 @@ cssclasses:
 > | Class | Paladin |
 > | Subclass | <ul><li>Oathbreaker</li><li>Oath of the Crown (formerly)</li></ul> |
 
-# Prudence
+# Prudence Ward
 ## Physical Description
 
 Prudence is tall for a human woman, standing ramrod straight at 6’4”. Big shoulders, long, pillar-thick legs. She has long, dark, straight hair framing her cool, brown face, and you find you can’t bring yourself to look away from her *terrible, galvanic-blue* eyes. A commanding presence, to be sure, with a disciplined rage simmering beneath. Even so, she respects propriety and order, above all things.
