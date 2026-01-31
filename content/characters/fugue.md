@@ -2,8 +2,8 @@
 publish: true
 title: Fugue
 created: 2026-01-30T13:44:03.918-08:00
-modified: 2026-01-30T21:35:15.583-08:00
-published: 2026-01-30T21:35:15.583-08:00
+modified: 2026-01-30T21:38:15.647-08:00
+published: 2026-01-30T21:38:15.647-08:00
 tags:
   - dnd
 cssclasses:
@@ -19,6 +19,7 @@ cssclasses:
 > | Birthname | Ren |
 > | Race | Half-orc |
 > | Age | ???[^1] |
+> | Gender | a man, but also, it’s complicated |
 > #### Info
 > | | |
 > | ---- | ---- |
