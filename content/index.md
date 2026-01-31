@@ -2,8 +2,8 @@
 publish: true
 title: welcome to my twisted mind
 created: 2026-01-30T12:46:47.996-08:00
-modified: 2026-01-30T22:26:14.864-08:00
-published: 2026-01-30T22:26:14.864-08:00
+modified: 2026-01-30T22:29:42.591-08:00
+published: 2026-01-30T22:29:42.591-08:00
 cssclasses: ""
 ---
 
@@ -20,5 +20,5 @@ check out my characters [[characters/\|here]]!
 	- [x] Fugue
 	- [ ] Ix
 	- [ ] Jude
-- [ ] Upload [[dm/ix]] and [[Jude]]’s character pages
+- [ ] Upload [[characters/ix\|Ix]] and [[Jude]]’s character pages
 	- [ ] along with their secret pages!
