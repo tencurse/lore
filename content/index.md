@@ -2,8 +2,8 @@
 publish: true
 title: welcome to my twisted mind
 created: 2026-01-30T12:46:47.996-08:00
-modified: 2026-01-30T22:22:16.835-08:00
-published: 2026-01-30T22:22:16.835-08:00
+modified: 2026-01-30T22:26:14.864-08:00
+published: 2026-01-30T22:26:14.864-08:00
 cssclasses: ""
 ---
 
@@ -16,4 +16,9 @@ check out my characters [[characters/\|here]]!
 - [ ] Add `new!` marker indicators on character pages which have been newly updated
 - [ ] Finalise [[characters/fugue\|Fugue’s]] backstory and physical description and literally everything bro…
 - [ ] Add banners on character pages
-- [ ] Add PDF links to character sheets on DM character pages
+- [ ] Add PDF links to character sheets on their respective secret pages
+	- [x] Fugue
+	- [ ] Ix
+	- [ ] Jude
+- [ ] Upload [[dm/ix]] and [[Jude]]’s character pages
+	- [ ] along with their secret pages!
