@@ -2,8 +2,8 @@
 publish: true
 title: Fugue
 created: 2026-01-30T17:50:46.783-08:00
-modified: 2026-01-30T22:31:55.176-08:00
-published: 2026-01-30T22:31:55.176-08:00
+modified: 2026-01-30T23:16:20.480-08:00
+published: 2026-01-30T23:16:20.480-08:00
 cssclasses:
   - character
 password: voidquest
@@ -11,7 +11,7 @@ password: voidquest
 
 > [!infobox|right]
 > ![[_assets/fugue.jpg|cover]]
-> #### Bio
+> #### Fugue / Ren
 > | | |
 > | ---- | ---- |
 > | Name | Fugue |
@@ -20,13 +20,10 @@ password: voidquest
 > | Age | ???[^1] |
 > | Gender | a man, but also, it’s complicated |
 > | Pronouns | he/him |
-> #### Info
-> | | |
-> | ---- | ---- |
-> | Campaign | Dive into the Void |
 > | Class | Cleric |
 > | Subclass | Grave Domain |
 > | Deity | Shar |
+> | Campaign | Dive into the Void |
 
 # Fugue
 
