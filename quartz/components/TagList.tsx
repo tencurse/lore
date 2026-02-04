@@ -50,6 +50,10 @@ a.internal.tag-link {
   padding: 0.2rem 0.4rem;
   margin: 0 0.1rem;
 }
+
+ul.tags.desktop-only {
+  display: flex;
+}
 `
 
 export default (() => TagList) satisfies QuartzComponentConstructor
