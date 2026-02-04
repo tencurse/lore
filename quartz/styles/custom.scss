@@ -94,6 +94,126 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-Light.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-LightItalic.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-Book.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-Book.woff") format("woff");
+  font-weight: 350;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-BookItalic.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-BookItalic.woff") format("woff");
+  font-weight: 350;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-Regular.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-RegularItalic.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-Medium.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-MediumItalic.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-Semibold.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-SemiboldItalic.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-Bold.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  src:
+    url("./static/fonts/UncutSans-BoldItalic.woff2") format("woff2"),
+    url("./static/fonts/UncutSans-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 h1 {
   font-family: "Moderne Fraktur";
   font-size: 4rem;
@@ -117,7 +237,7 @@ h1 {
   }
 
   article {
-    font-family: "FF Good Pro";
+    font-family: "Uncut Sans";
     font-size: 1rem;
   }
 
@@ -158,20 +278,20 @@ h4 {
 
 .desc h3,
 .meta time {
-  font-family: "FF Good Pro";
+  font-family: "Uncut Sans";
   font-variant: normal;
   font-size: inherit;
 }
 
 .page {
   article {
-    font-family: "FF Good Pro";
+    font-family: "Uncut Sans";
   }
 }
 
 .page-listing {
   > p {
-    font-family: "FF Good Pro";
+    font-family: "Uncut Sans";
   }
 }
 
