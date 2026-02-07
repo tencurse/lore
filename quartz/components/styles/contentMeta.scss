@@ -1,14 +1,31 @@
 .content-meta {
   margin-top: 0;
   color: var(--gray);
+  font-size: 0.85rem;
+  line-height: 1.5;
 
   &[show-comma="true"] {
-    > *:not(:last-child) {
+    >*:not(:last-child) {
       margin-right: 8px;
 
       &::after {
         content: ",";
       }
+    }
+  }
+
+  &.desktop-only {
+    margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .content-meta {
+    &.mobile-only {
+      display: flex;
+      margin-block: 10px;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
   }
 }
