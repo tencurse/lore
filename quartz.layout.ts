@@ -24,7 +24,6 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     })),
     Component.MobileOnly(Component.ContentMeta()),
-    Component.MobileOnly(Component.TagList()),
   ],
   left: [
     Component.PageTitle(),
