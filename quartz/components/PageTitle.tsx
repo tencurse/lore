@@ -19,7 +19,7 @@ PageTitle.css = `
   margin: 0;
   font-family: "Moderne Fraktur";
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing:-2px;
 }
 `
