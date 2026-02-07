@@ -94,7 +94,7 @@ a {
   &.internal {
     text-decoration: none;
     background-color: var(--highlight);
-    padding: 0 0.1rem;
+    padding: 0;
     border-radius: 5px;
     line-height: 1.4rem;
 
@@ -111,11 +111,6 @@ a {
       background-color: transparent;
       border-radius: 0;
       padding: 0;
-    }
-    &.tag-link {
-      &::before {
-        content: "#";
-      }
     }
   }
 
@@ -166,12 +161,6 @@ a {
     & li:has(> input[type="checkbox"]) {
       list-style-type: none;
       padding-left: 0;
-    }
-
-    & li:has(> input[type="checkbox"]:checked) {
-      text-decoration: line-through;
-      text-decoration-color: var(--gray);
-      color: var(--gray);
     }
 
     & li > * {
