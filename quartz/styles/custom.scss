@@ -343,7 +343,7 @@ sup {
   display: inline-block;
 }
 
-@media (max-width: 800px) {
+@media ($mobile) {
   h2.page-title {
     font-size: 2rem;
     letter-spacing: -1px;
@@ -354,7 +354,7 @@ sup {
     letter-spacing: -1px;
   }
 
-  h2 {
+  h2:not(.page-title) {
     font-size: 1.5rem;
   }
 }
