@@ -29,7 +29,7 @@ TagList.css = `
   list-style: none;
   display: flex;
   padding-left: 0;
-  gap: 0.4rem;
+  gap: 0.2rem;
   margin: 0.5rem 0;
   flex-wrap: wrap;
 }
@@ -47,8 +47,10 @@ TagList.css = `
 
 a.internal.tag-link {
   background-color: var(--highlight);
-  padding: 0.2rem 0.4rem;
+  padding: 0.1rem 0.5rem;
   margin: 0 0.1rem;
+  border-radius: 16px;
+  font-size: 0.85rem;
 }
 
 ul.tags.desktop-only {
