@@ -16,7 +16,7 @@
   max-width: 300px;
   float: right;
   border-radius: var(--radius-s);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .callout.callout[data-callout~="infobox"] > .callout-title {
   justify-content: center;
@@ -143,7 +143,7 @@
   word-break: break-word;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
 }
 
 .callout.callout[data-callout~="infobox"] table th {
@@ -159,6 +159,13 @@
 .callout.callout[data-callout~="infobox"] table td ul {
   padding-left: 0.7rem;
   margin: 0;
+}
+.callout.callout[data-callout~="infobox"] table td ul li {
+  line-height: 1;
+  margin-bottom: -4px;
+}
+.callout.callout[data-callout~="infobox"] table td ul li:last-child {
+  margin-bottom: 8px;
 }
 .callout.callout[data-callout~="infobox"] :is(p, table) {
   margin-block-start: 0;
