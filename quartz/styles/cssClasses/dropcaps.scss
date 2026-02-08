@@ -1,0 +1,15 @@
+@use "../variables.scss" as *;
+
+article.drop-caps > p:first-of-type::first-letter {
+  float: inline-start;
+  
+  /* A fancy font for the initial is required */
+  font-family: "Goudy Initialen", serif;
+
+  /* These may need to get adjusted with different fonts */
+  font-size: calc($fontSize * 5);
+  line-height: 0.7em;
+  margin-right: 0.1em;
+  margin-top: 8px;
+  font-weight: 300;
+}
