@@ -48,7 +48,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.ContentMeta()),
     Component.DesktopOnly(Component.TagList()),
     Component.Backlinks(),
-    Component.DesktopOnly(Component.Graph()),
   ],
 }
 
@@ -79,6 +78,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.ContentMeta()),
     Component.DesktopOnly(Component.TagList()),
     Component.Backlinks(),
-    Component.DesktopOnly(Component.Graph()),
   ],
 }
