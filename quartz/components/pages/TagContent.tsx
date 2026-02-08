@@ -32,6 +32,8 @@ export default ((opts?: Partial<TagContentOptions>) => {
     const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
     const allPagesWithTag = (tag: string) =>
       allFiles.filter((file) =>
+        // hide from tag pages
+        !file.frontmatter?.private &&
         (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
       )
 

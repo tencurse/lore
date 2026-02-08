@@ -20,7 +20,7 @@ interface FolderContentOptions {
 }
 
 const defaultOptions: FolderContentOptions = {
-  showFolderCount: true,
+  showFolderCount: false,
   showSubfolders: true,
 }
 
@@ -41,6 +41,10 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         .map((node) => {
           // regular file, proceed
           if (node.data) {
+            // hide from folder pages
+            if (node.data.frontmatter?.private) {
+              return undefined
+            }
             return node.data
           }
 
