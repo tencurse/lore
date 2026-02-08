@@ -1,7 +1,9 @@
-.page-header:has(+ .character) h1.article-title {
+.page-header:has(+ .character) h1.article-title,
+.page-header:has(+ .popover-hint > article.character) h1.article-title {
   display: none;
 }
 
-.popover-hint:has(+ .character) h1.article-title {
+.popover-hint:has(+ .character) h1.article-title,
+.popover-hint:has(+ div .character) h1.article-title {
   display: none;
 }
