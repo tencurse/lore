@@ -1,6 +1,7 @@
 @use "./base.scss";
 @use "./variables.scss" as *;
 @use "./cssClasses/character.scss";
+@use "./cssClasses/dropcaps.scss";
 
 // put your custom CSS here!
 
@@ -10,6 +11,16 @@
   src:
     url("./static/fonts/ModerneFraktur.woff2") format("woff2"),
     url("./static/fonts/ModerneFraktur.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Goudy Initialen";
+  src:
+    url("./static/fonts/GoudyInitialen.woff2") format("woff2"),
+    url("./static/fonts/GoudyInitialen.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
