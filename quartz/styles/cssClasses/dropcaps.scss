@@ -9,7 +9,7 @@ article.drop-caps > p:first-of-type::first-letter {
   /* These may need to get adjusted with different fonts */
   font-size: calc($fontSize * 5);
   line-height: 0.7em;
-  margin-right: 0.1em;
+  margin-right: 4px;
   margin-top: 8px;
   font-weight: 300;
   font-style: normal;
