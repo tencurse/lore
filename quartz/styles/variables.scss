@@ -17,13 +17,13 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 350px; //380px;
+$sidePanelWidth: 345px; //380px;
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;
 
-$fontSize: 20px;
+$fontSize: 18px;
 $fontSans: "Uncut Sans";
 $fontTitle: "Moderne Fraktur";
 
