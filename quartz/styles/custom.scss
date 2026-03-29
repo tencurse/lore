@@ -226,6 +226,10 @@
   font-display: swap;
 }
 
+span.redacted {
+    font-family: 'Redacted';
+}
+
 h1 {
   font-family: $fontTitle;
   font-size: 3.5rem;
